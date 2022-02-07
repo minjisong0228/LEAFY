@@ -87,7 +87,8 @@ body{
     font-size: 13px;
     line-height: 22px;
     color: #ababab;
-    min-width:1320px;
+    min-width:1350px;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -327,28 +328,33 @@ ul{
 }
 .bp1{
     position: absolute;
-    top: 390px;
-    left: 420px;
+    top: 140px;
+    left: 130px;
 }
 .bp2{
     position: absolute;
-    top: 680px;
-    left: 560px;
+    top: 430px;
+    left: 280px;
 }
 .bp3{
     position: absolute;
-    top: 320px;
-    left: 855px;
+    top: 80px;
+    left: 555px;
 }
 .bp4{
     position: absolute;
-    top: 630px;
-    left: 1152px;
+    top: 390px;
+    left: 862px;
 }
 .more{
     position: absolute;
-    top: 942px;
-    left: 1348px;
+    top: 682px;
+    left: 1048px;
+}
+.keyworld_photo{
+    margin: 0 auto;
+    width: 1320px;
+    position: relative;
 }
 
 /*middlebanner*/
@@ -357,11 +363,11 @@ ul{
     height:400px;
     background:url(images/middle_banner_bg.jpg) no-repeat center top fixed;
 }
-.message{
-    width: 1320px;
+.message{    
+    width: 980px;
     margin: 0px auto;   
     padding-top: 120px;
-    padding-left: 383px;
+    text-align: center;
 }
 .message li{
     float: left;
@@ -384,24 +390,12 @@ ul{
 .message li:nth-child(1){
      padding-top: 40px;
      padding-bottom: 35px;
-     padding-right: 80px;
      border-right: 1px solid rgba(197,197,197,0.7);
+     padding-right: 80px;
 }
 .message li:nth-child(2){
     padding-left: 80px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*program*/
 .program{
@@ -537,7 +531,7 @@ ul{
     clear: both;    
     border-top: 1px solid #c2c2c2;
 }
-.footer_inner{
+.footer_inner{   
     width: 1320px;
     margin: 60px auto;
     height: 100px;
