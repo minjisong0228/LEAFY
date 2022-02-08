@@ -81,6 +81,9 @@
      font-style: normal;
 }
 *{margin: 0; padding: 0;}
+html{
+    overflow-x: hidden;
+}
 body{
     font-family: 'NanumSquareOTF_web';
     font-weight:400;
@@ -182,12 +185,12 @@ ul{
 .main_allow_left img{
     position: absolute;
     top: 420px;
-    left: 269px;
+    left: 150px;
 }
 .main_allow_right img{
     position: absolute;
     top: 420px;
-    right: 269px;
+    right: 150px;
 }
 
 /*bestitem*/
